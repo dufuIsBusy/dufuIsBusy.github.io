@@ -1,0 +1,26 @@
+{{ partial "header" . }}
+
+<div class="inner" style="position:relative;">
+  {{ if eq .Site.Params.single false }}
+  
+  {{ else }}
+  <div class="side-btn"><a href="{{.Site.BaseURL}}" class="back">Home</a></div>
+  {{ end }}
+<div class="blog-post">
+  <h2>{{ .Params.title }}</h2>
+        {{ .Content }}
+  </div>
+
+{{ if .Site.Params.editBtn}}
+<button id="edit-button" class="icon-button" type="button" title="Fork and edit" aria-label="Fork and edit"
+aria-haspopup="true" aria-expanded="false" aria-controls="edit">
+<i class="fa fa-edit">编辑本文</i>
+</button>
+{{end}}
+
+{{ if .Site.Params.copyCode}}
+<script src="{{.Site.BaseURL}}js/copyCode.js"></script>
+<script src="{{.Site.BaseURL}}js/tooltips.js"></script>
+{{ end }}
+
+{{ partial "footer" . }}
