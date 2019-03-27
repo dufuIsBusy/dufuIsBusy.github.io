@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/tryIdea/blog.git
 	branch = master
+[submodule "themes/yinwang"]
+	path = themes/yinwang
+	url = https://github.com/chinanf-boy/gohugo-theme-yinwang.git
