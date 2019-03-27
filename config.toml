@@ -1,4 +1,4 @@
 baseURL = "https://tryidea.github.io/blog/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "try"
 theme = "yinwang"
