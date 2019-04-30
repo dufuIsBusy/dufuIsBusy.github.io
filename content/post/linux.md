@@ -1,6 +1,9 @@
 ---
 title: "Linux"
 date: 2019-03-27T16:50:45+08:00
+categories: ["linux"]
+tags: ["linux"]
+draft: false
 ---
 
 #### sudoers 文件在哪，怎么修改？

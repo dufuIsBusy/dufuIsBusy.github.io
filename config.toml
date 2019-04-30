@@ -22,3 +22,5 @@ theme = "yinwang"
     #backgroundColor = "#fbf6ec" # 加点黄黄的背景色
     githubRepo = "https://github.com/tryIdea/try"
     editBtn = true # 两个字段一起，才能搞好编辑按钮
+    copyCode = true
+    anchorLink = "¶" # 可以自己改为喜欢的字符
