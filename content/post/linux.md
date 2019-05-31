@@ -8,7 +8,9 @@ draft: false
 
 #### sudoers 文件在哪，怎么修改？
 在'/etc/sudoers' 中增加'debugger     ALL=(ALL)       ALL'
-
+```
+apt-get install sudo
+```
 #### How to set up EPEL repository on CentOS
 Set up EPEL on CentOS 7 sudo yum install epel-release For CentOS/RHEL 6.*
 
