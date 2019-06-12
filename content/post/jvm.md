@@ -4,6 +4,23 @@ date: 2019-05-31T16:11:18+08:00
 draft: false
 ---
 
+#### 查看JVM使用的默认的垃圾收集器
+```
+java -XX:+PrintCommandLineFlags -version
+-XX:+PrintGCDetails  -XX:+PrintCommandLineFlags
+```
+
+#### 参数使用方式
+```
+-XX:+\<option\> 开启option参数
+-XX:-\<option\> 关闭option参数
+-XX:\<option\>=\<value\> 将option参数值设置为value
+```
+
+#### 查询参数值
+jinfo -flag MaxDirectMemorySize 21184
+java -XX:+PrintFlagsFinal
+
 #### 启动tomcat时开启gc日志
 在catalina.sh里添加如下变量即可
 
