@@ -3,7 +3,19 @@ title: "Jvm"
 date: 2019-05-31T16:11:18+08:00
 draft: false
 ---
-
+#### 参数
+标准参数（-），所有的JVM实现都必须实现这些参数的功能，而且向后兼容;
+```
+java
+```
+非标准参数（-X），默认jvm实现这些参数的功能，但是并不保证所有jvm实现都满足，且不保证向后兼容；
+```
+java -X
+```
+非Stable参数（-XX），此类参数各个jvm实现会有所不同，将来可能会随时取消，需要慎重使用（但是，这些参数往往是非常有用的）
+```
+java -XX:+PrintFlagsFinal
+```
 #### 查看JVM使用的默认的垃圾收集器
 ```
 java -XX:+PrintCommandLineFlags -version
