@@ -393,10 +393,20 @@ SELECT * FROM INFORMATION_SCHEMA.INNODB_LOCK_WAITS;
 show OPEN TABLES where In_use > 0;
 ```
 
+#### 导出表结构
+SELECT
+COLUMN_NAME 数据字典,
+COLUMN_TYPE 类型长度,
+COLUMN_COMMENT 中文名称
+FROM
+INFORMATION_SCHEMA.COLUMNS
+where
+table_schema ='call_service'
+AND
+table_name = 'call_account'
 
 
-
-
+SHOW FULL FIELDS FROM 表名
 
 
 
