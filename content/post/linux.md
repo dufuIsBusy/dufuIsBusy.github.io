@@ -93,3 +93,7 @@ echo -n '-KavlU'|md5sum|cut -d ' ' -f 1
 ```
 sed -n '/2017-04-27 07:[0-9][0-9]:[0-9][0-9]/,/2017-04-27 08:[0-9][0-9]:[0-9][0-9]/p' catalina.out
 ```
+#### Execute Shell script with debug option
+```
+bash -xv filesize.sh
+```
