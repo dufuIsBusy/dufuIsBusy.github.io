@@ -43,10 +43,8 @@ mvn deploy(可选）
 mvn archetype:generate -DinteractiveMode=false -DarchetypeCatalog=internal,remote -DarchetypeRepository=https://repo.rdc.aliyun.com/repository/28238-snapshot-KOJx4y -DarchetypeGroupId=com.yunli.sca -DarchetypeArtifactId=sca-portal-archetype -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=com.yunli -DartifactId=new-demo -Dversion=1.0.0-SNAPSHOT -Dgoals=compilemvn archetype:generate -DinteractiveMode=false -DarchetypeCatalog=internal,remote -DarchetypeRepository=https://repo.rdc.aliyun.com/repository/28238-snapshot-KOJx4y -DarchetypeGroupId=com.yunli.sca -DarchetypeArtifactId=sca-portal-archetype -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=com.yunli -DartifactId=new-demo -Dversion=1.0.0-SNAPSHOT -Dgoals=compile
 
 #### 生成骨架命令
-```
 mvn archetype:generate -DinteractiveMode=false -DarchetypeCatalog=remote -DarchetypeRepository=https://repo.rdc.aliyun.com/repository/28238-release-F3OKjA -DarchetypeGroupId=com.yunli.smart.archetype -DarchetypeArtifactId=api-spring-cloud-alibaba-archetype -DarchetypeVersion=2.1.1.RELEASE -DgroupId=com.yunli.smart -DartifactId=work-order-service-api -Dversion=1.0.0-SNAPSHOT
 
 mvn archetype:generate -DinteractiveMode=false -DarchetypeCatalog=remote -DarchetypeRepository=https://repo.rdc.aliyun.com/repository/28238-release-F3OKjA -DarchetypeGroupId=com.yunli.smart.archetype -DarchetypeArtifactId=portal-spring-cloud-alibaba-archetype -DarchetypeVersion=2.1.1.RELEASE -DgroupId=com.yunli.smart -DartifactId=work-order-portal -Dversion=1.0.0-SNAPSHOT
 
 mvn archetype:generate -DinteractiveMode=false -DarchetypeCatalog=remote -DarchetypeRepository=https://repo.rdc.aliyun.com/repository/28238-release-F3OKjA -DarchetypeGroupId=com.yunli.smart.archetype -DarchetypeArtifactId=service-spring-cloud-alibaba-archetype -DarchetypeVersion=2.1.1.RELEASE -DgroupId=com.yunli.smart -DartifactId=work-order-service -Dversion=1.0.0-SNAPSHOT
-```
